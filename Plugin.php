@@ -22,6 +22,8 @@ class Passport_Plugin implements Typecho_Plugin_Interface
     {
         Helper::addRoute('passport_forgot', '/passport/forgot', 'Passport_Widget', 'doForgot');
         Helper::addRoute('passport_reset', '/passport/reset', 'Passport_Widget', 'doReset');
+
+        return _t('请配置此插件的SMTP信息, 以使您的插件生效');
     }
 
     /**
