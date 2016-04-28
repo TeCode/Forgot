@@ -188,7 +188,8 @@ class Passport_Widget extends Typecho_Widget
      * @access public
      * @return Typecho_Widget_Helper_Form
      */
-    public function forgotForm() {
+    public function forgotForm()
+    {
         $form = new Typecho_Widget_Helper_Form(NULL, Typecho_Widget_Helper_Form::POST_METHOD);
 
         $mail = new Typecho_Widget_Helper_Form_Element_Text('mail',
@@ -219,7 +220,8 @@ class Passport_Widget extends Typecho_Widget
      * @access public
      * @return Typecho_Widget_Helper_Form
      */
-    public function resetForm() {
+    public function resetForm()
+    {
         $form = new Typecho_Widget_Helper_Form(NULL, Typecho_Widget_Helper_Form::POST_METHOD);
 
         /** 新密码 */
