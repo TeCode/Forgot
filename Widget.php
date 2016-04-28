@@ -22,7 +22,7 @@ class Passport_Widget extends Typecho_Widget
      * 插件配置
      *
      * @access private
-     * @var Object
+     * @var Typecho_Config
      */
     private $config;
 
